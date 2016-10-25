@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A git folder is created that keeps track of all the meta data. You need this to
+keep track of all your commits and version updates.
