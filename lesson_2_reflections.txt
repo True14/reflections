@@ -2,3 +2,42 @@ What happens when you initialize a repository? Why do you need to do it?
 
 A git folder is created that keeps track of all the meta data. You need this to
 keep track of all your commits and version updates.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging are is where you place files that are ready to be committed. The repository
+is a container for all of your commits and the working directory are the files
+being worked on that aren't ready for a commit. The staging area helps organize
+your workflow.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You have to add files you want to commit to the staging area so you can just pick the
+ones you want to commit instead of the entire workspace.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+When you're trying to experiment, but don't want to commit to your working project
+is when you would want to use branches. That way you can incorporate ideas that
+interest you, but may prove to be problematic in the end.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help by giving a visual representation of when branches occur and
+what they are branched off of.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The result is that the two branches are combined into one. This new branch's parents
+are the two branches it was combined from. All the commits from these branches'
+are now the commits of the new branch. You represent this in the diagram the way you to
+in order to show this fact.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging allows you to easily merge to branches without really thinking
+about it. The downside is when there are conflicts in the two branches. These
+will have to be handled manually and git knows this.
