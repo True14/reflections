@@ -22,3 +22,16 @@ What is the benefit of having a copy of the last known state of the remote store
 The benefit is knowing how things stand if anything happens while you're offline.
 You have a nice history of what you were working from and what changed while you
 weren't connected to the internet.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+I would use google drive or dropbox. It would probably be harder to keep everything
+up to date, but it would be easier to learn.
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+You would want to make changes in a seperate branch so that you can easily handle
+any conflicts that may arise. I can get a little complicated when dealing with
+conflicts, but it's still more organized.
